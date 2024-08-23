@@ -1,0 +1,15 @@
+{
+  "name": "download-files",
+  "version": "1.0.0",
+  "description": "Download files from a specified URL to a directory",
+  "main": "download.js",
+  "scripts": {
+    "start": "node download.js"
+  },
+  "dependencies": {
+    "async": "^3.2.5",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "p-limit": "^6.1.0"
+  }
+}
